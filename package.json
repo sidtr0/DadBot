@@ -1,0 +1,20 @@
+{
+  "name": "iamdadbot",
+  "version": "1.0.0",
+  "description": "A stupid bot which renames users if their messages start with \"I am\" or likewise",
+  "main": "index.js",
+  "dependencies": {
+    "discord-akairo": "^8.1.0",
+    "discord.js": "^12.3.1",
+    "dotenv": "^8.2.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "prettier": "^2.1.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Drac",
+  "license": "ISC"
+}
