@@ -1,8 +1,7 @@
 const {Command}  = require('discord-akairo');
-const dad = require('../../../dadJokes.json');
 const dj = new Dadjokes();
 
-class Setup extends Command {
+class DadJoke extends Command {
   constructor() {
     super('setup', {
       aliases: ['setup'],
@@ -17,4 +16,4 @@ class Setup extends Command {
   }
 }
 
-module.exports = Setup;
+module.exports = dadJoke;
